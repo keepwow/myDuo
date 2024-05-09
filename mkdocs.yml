@@ -1,0 +1,126 @@
+site_name: myDuo
+site_description: My Duolingo Learning Notes.
+site_author: keepwow
+site_url: https://keepwow.github.io/myDuo/
+repo_url: https://github.com/keepwow
+
+theme:
+  name: material
+  language: en # (1)!
+  features:
+    - navigation.tabs
+
+# Extensions
+markdown_extensions:
+  # - abbr
+  # - admonition
+  # - attr_list
+  # - def_list
+  - footnotes
+  # - md_in_html
+  # - toc:
+  #     permalink: true
+  # - pymdownx.arithmatex:
+  #     generic: true
+  # - pymdownx.betterem:
+  #     smart_enable: all
+  # - pymdownx.caret
+  # - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  # - pymdownx.highlight:
+  #     anchor_linenums: true
+  #     line_spans: __span
+  #     pygments_lang_class: true
+  # - pymdownx.inlinehilite
+  # - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     normalize_issue_symbols: true
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  # - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.snippets:
+  #     auto_append:
+  #       - includes/mkdocs.md
+  - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  # - pymdownx.tabbed:
+  #     alternate_style: true
+  #     combine_header_slug: true
+  #     slugify: !!python/object/apply:pymdownx.slugs.slugify
+  #       kwds:
+  #         case: lower
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  # - pymdownx.tilde
+
+
+# Additional configuration
+extra:
+  alternate:
+    - name: English
+      link: /myDuo/ # (1)!
+      lang: en
+#     - name: Deutsch
+#       link: /myDuo/de
+#       lang: de
+
+  analytics:
+    provider: google
+    property: G-36HTPNNRCG
+
+plugins:
+  - privacy
+
+nav:
+  - Home: index.md
+  - Section 1: 
+    - Overview: Section/1/index.md
+    - Unit 1: Section/1/Unit/1.md
+    - Unit 2: Section/1/Unit/2.md
+    - Unit 3: Section/1/Unit/3.md
+    - Unit 4: Section/1/Unit/4.md
+    - Unit 5: Section/1/Unit/5.md
+  - Section 2: 
+    - Overview: Section/2/index.md
+    - Unit 1: Section/2/Unit/1.md
+    - Unit 2: Section/2/Unit/2.md
+    - Unit 3: Section/2/Unit/3.md
+    - Unit 4: Section/2/Unit/4.md
+    - Unit 5: Section/2/Unit/5.md
+    - Unit 6: Section/2/Unit/6.md
+    - Unit 7: Section/2/Unit/7.md
+    - Unit 8: Section/2/Unit/8.md
+    - Unit 9: Section/2/Unit/9.md
+    - Unit 10: Section/2/Unit/10.md
+    - Unit 11: Section/2/Unit/11.md
+    - Unit 12: Section/2/Unit/12.md
+  - Section 3: 
+    - Overview: Section/3/index.md
+    - Unit 1: Section/3/Unit/1.md
+    - Unit 2: Section/3/Unit/2.md
+    - Unit 3: Section/3/Unit/3.md
+    - Unit 4: Section/3/Unit/4.md
+    - Unit 5: Section/3/Unit/5.md
+    - Unit 6: Section/3/Unit/6.md
+    - Unit 7: Section/3/Unit/7.md
+    - Unit 8: Section/3/Unit/8.md
+    - Unit 9: Section/3/Unit/9.md
+    - Unit 10: Section/3/Unit/10.md
+    - Unit 11: Section/3/Unit/11.md
+    - Unit 12: Section/3/Unit/12.md
+    - Unit 13: Section/3/Unit/13.md
+    - Unit 14: Section/3/Unit/14.md
+  - Section 4: 
+    - Overview: Section/4/index.md
+    - Unit 1: Section/4/Unit/1.md
+    - Unit 2: Section/4/Unit/2.md
+    - Unit 3: Section/4/Unit/3.md
+  - Blog:
+    - Take screencaptures: Blog/screencapture.md
